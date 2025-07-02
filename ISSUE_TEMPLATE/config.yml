@@ -1,4 +1,4 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
   - name: 💬 Ask a Question
     url: https://github.com/AEI-Digital-Co-Ltd/.github/discussions
