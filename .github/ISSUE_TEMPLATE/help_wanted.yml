@@ -1,6 +1,6 @@
 name: "🙋‍♂️ Help Wanted"
 description: "Request help with an issue, feature, or area of the project"
-title: "[HELP WANTED] <short description>"
+title: "[HELP WANTED] "
 labels: ["help wanted", "good first issue"]
 assignees: []
 
