@@ -1,6 +1,6 @@
 name: "📥 Import Data Request"
 description: "Request help importing external data into the project"
-title: "[IMPORT DATA] <describe the data>"
+title: "[IMPORT DATA] "
 labels: ["import", "help wanted"]
 assignees: []
 
