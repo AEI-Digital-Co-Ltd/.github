@@ -1,6 +1,6 @@
 name: "🐛 Bug Report"
 description: "File a bug to help us improve"
-title: "[BUG] <describe issue>"
+title: "[BUG] "
 labels: ["bug"]
 assignees: []
 
