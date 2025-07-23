@@ -1,6 +1,6 @@
 name: "❓ Question / Help"
 description: "Ask a question or request help"
-title: "[Question] <topic>"
+title: "[Question] "
 labels: ["question"]
 assignees: []
 
