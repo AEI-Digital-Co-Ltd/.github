@@ -51,24 +51,6 @@ body:
       description: "Attach screenshots or paste error logs here."
       placeholder: "Add any visual aids or logs here."
 
-  - type: input
-    id: os
-    attributes:
-      label: "OS"
-      placeholder: "e.g. Windows 11, macOS 13"
-
-  - type: input
-    id: browser
-    attributes:
-      label: "Browser"
-      placeholder: "e.g. Chrome 125, Safari 17.2"
-
-  - type: input
-    id: version
-    attributes:
-      label: "App Version"
-      placeholder: "e.g. v1.0.0"
-
   - type: dropdown
     id: environment
     attributes:
