@@ -18,5 +18,4 @@ We’re a diverse team of engineers, and creators passionate about interaction m
 - **CEO & Lead Engineer**: [@artclicky](https://github.com/artclicky)
 - **Lead Dev**: [@Xeei](https://github.com/Xeei)
 - **Help Desk**: [@NuttawutChocola](https://github.com/NuttawutChocola)
-- **Help Desk**: [@Sugarbeem](https://github.com/Sugarbeem)
 - **Help Desk**: [@tooja](https://github.com/netbusy1979move-boop)
