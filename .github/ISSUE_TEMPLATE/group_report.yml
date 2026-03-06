@@ -18,13 +18,7 @@ body:
     validations:
       required: true
 
-  - type: markdown
-    attributes:
-      value: |
-        ---
-        *Tip: Mention specific team members in the description if urgent!*
-
-- type: textarea
+  - type: textarea
     id: existing-refs
     attributes:
       label: 🔍 Existing Issue References
@@ -40,3 +34,9 @@ body:
       options:
         - label: I have linked the existing issues using the native "Sub-issues" button.
         - label: I have verified all sub-tasks have assignees.
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        *Tip: Mention specific team members in the description if urgent!*
