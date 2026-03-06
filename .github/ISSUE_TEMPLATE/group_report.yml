@@ -18,23 +18,6 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: existing-refs
-    attributes:
-      label: 🔍 Existing Issue References
-      description: Paste the issue numbers here (e.g., #101, #105) so they are linked in the history.
-      placeholder: "#123, #456"
-    validations:
-      required: false
-
-  - type: checkboxes
-    id: workflow
-    attributes:
-      label: Sub-issue Checklist
-      options:
-        - label: I have linked the existing issues using the native "Sub-issues" button.
-        - label: I have verified all sub-tasks have assignees.
-
   - type: markdown
     attributes:
       value: |
