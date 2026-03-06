@@ -1,0 +1,25 @@
+name: 👥 Group Task / Bug Report
+description: Standardized template for team coordination.
+title: "[G-Issue]: "
+labels: ["triage", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 📋 Coordination Details
+        Please fill out the details below to help the team prioritize this task.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Task Description
+      description: What needs to be done?
+      placeholder: Provide a clear summary of the issue...
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        *Tip: Mention specific team members in the description if urgent!*
