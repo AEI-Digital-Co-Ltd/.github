@@ -9,32 +9,17 @@
 
 ---
 
-### 🧩 Description
+### 🧩 รายละเอียด
 
 -
 
 ---
 
-### ✅ Changes Made
-
-- 
-
----
-
-### 🧠 How to Test
-
--
-
----
-
-### 🔗 Related Issues
+### 🧠 วิธีทดสอบโปรแกรม
 
 -
 
 ---
 
 ### 🧾 Checklist
-- [ ] Code runs without errors
-- [ ] Tested locally
 - [ ] Updated related documentation (if needed)
-- [ ] Review requested from teammates
