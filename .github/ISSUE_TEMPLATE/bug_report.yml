@@ -1,5 +1,5 @@
-name: "🐛 Bug Report"
-description: "File a bug to help us improve"
+name: "🐛 รายงานปัญหา"
+description: "แจ้งปัญหาเพื่อช่วยให้เราปรับปรุงระบบ"
 title: "[BUG] "
 labels: ["bug"]
 assignees: []
@@ -8,20 +8,20 @@ body:
   - type: textarea
     id: bug_summary
     attributes:
-      label: "🐛 Bug Summary"
-      description: "Briefly describe the issue."
-      placeholder: "Describe the issue briefly."
+      label: "🐛 สรุปปัญหา"
+      description: "อธิบายปัญหาโดยสั้น ๆ"
+      placeholder: "อธิบายปัญหาโดยสั้น ๆ"
     validations:
       required: true
 
   - type: textarea
     id: steps_to_reproduce
     attributes:
-      label: "🧪 Steps to Reproduce"
-      description: "List the steps to reproduce the bug."
+      label: "🧪 ขั้นตอนการทำให้เกิดปัญหา"
+      description: "ระบุขั้นตอนที่ทำให้เกิดปัญหา"
       placeholder: |
-        1. Step 1
-        2. Step 2
+        1. ขั้นตอนที่ 1
+        2. ขั้นตอนที่ 2
         3. ...
     validations:
       required: true
@@ -29,41 +29,31 @@ body:
   - type: textarea
     id: expected_behavior
     attributes:
-      label: "✅ Expected Behavior"
-      description: "What should happen?"
-      placeholder: "The expected outcome of the steps above."
+      label: "✅ ผลลัพธ์ที่คาดหวัง"
+      description: "สิ่งที่ควรจะเกิดขึ้น"
+      placeholder: "อธิบายผลลัพธ์ที่คาดหวัง"
     validations:
       required: true
 
   - type: textarea
     id: actual_behavior
     attributes:
-      label: "🚫 Actual Behavior"
-      description: "What actually happens?"
-      placeholder: "The actual outcome of the steps above."
+      label: "🚫 ผลลัพธ์ที่เกิดขึ้นจริง"
+      description: "สิ่งที่เกิดขึ้นจริง"
+      placeholder: "อธิบายผลลัพธ์ที่เกิดขึ้นจริง"
     validations:
       required: true
 
   - type: textarea
     id: screenshots
     attributes:
-      label: "📸 Screenshots or Logs"
-      description: "Attach screenshots or paste error logs here."
-      placeholder: "Add any visual aids or logs here."
-
-  - type: dropdown
-    id: environment
-    attributes:
-      label: "Environment"
-      description: "Where did the issue occur?"
-      options:
-        - Development
-        - Staging
-        - Production
-      multiple: false
+      label: "📸 รูปภาพหน้าจอหรือ Log"
+      description: "แนบรูปภาพหน้าจอหรือวาง Log ของข้อผิดพลาด"
+      placeholder: "เพิ่มรูปภาพหรือ Log ที่เกี่ยวข้อง"
 
   - type: textarea
     id: additional_notes
     attributes:
-      label: "📝 Additional Notes"
-      description: "Add any other context about the issue here."
+      label: "📝 หมายเหตุเพิ่มเติม"
+      description: "เพิ่มข้อมูลหรือรายละเอียดเพิ่มเติมเกี่ยวกับปัญหา"
+      placeholder: "รายละเอียดเพิ่มเติม (ถ้ามี)"
